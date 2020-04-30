@@ -8,3 +8,9 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+###> docker ###
+.docker/data/*
+###< docker ###
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
